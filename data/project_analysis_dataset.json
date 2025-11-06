@@ -1,0 +1,220 @@
+{
+  "metadata": {
+    "project_name": "ТГ-бот для составления ТЗ по ГОСТ",
+    "dataset_description": "Датасет для анализа эффективности ИИ-бота по генерации технических заданий",
+    "total_records": 243,
+    "generation_date": "2024-10-29",
+    "data_sources": ["GPT-4 generated", "Real project templates", "ГОСТ standards"]
+  },
+  
+  "project_statistics": {
+    "projects_by_type": {
+      "Веб-сайт": 67,
+      "Телеграм-бот": 45,
+      "Мобильное приложение": 38,
+      "Веб-приложение": 32,
+      "CRM система": 25,
+      "ERP система": 18,
+      "Десктопное приложение": 12,
+      "Чат-бот": 6
+    },
+    "projects_by_industry": {
+      "ИТ и технологии": 48,
+      "Розничная торговля": 35,
+      "Образование": 32,
+      "Общественное питание": 28,
+      "Недвижимость": 25,
+      "Здравоохранение": 22,
+      "Финансы и банкинг": 18,
+      "Производство": 15,
+      "Транспорт и логистика": 12,
+      "Развлечения": 8
+    },
+    "budget_distribution_rub": {
+      "до 50,000": 89,
+      "50,000 - 100,000": 67,
+      "100,000 - 300,000": 45,
+      "300,000 - 500,000": 28,
+      "500,000 - 1,000,000": 14
+    },
+    "development_timeline_weeks": {
+      "1-2": 56,
+      "2-4": 67,
+      "4-8": 58,
+      "8-12": 35,
+      "12+": 27
+    },
+    "team_size_distribution": {
+      "1 человек": 45,
+      "2-3 человека": 78,
+      "4-5 человек": 56,
+      "6-10 человек": 42,
+      "10+ человек": 22
+    }
+  },
+
+  "interview_analysis": {
+    "average_dialogue_length_characters": 1247,
+    "average_questions_per_interview": 8.3,
+    "average_answers_length": 156,
+    "most_frequent_questions": [
+      {"question": "Какую задачу должен решать проект?", "frequency": 243},
+      {"question": "Для кого предназначен проект?", "frequency": 241},
+      {"question": "Какие основные функции нужны?", "frequency": 238},
+      {"question": "Какой бюджет планируется?", "frequency": 215},
+      {"question": "К какому сроку нужно завершить?", "frequency": 208},
+      {"question": "Какие интеграции необходимы?", "frequency": 187},
+      {"question": "Есть ли требования к дизайну?", "frequency": 176},
+      {"question": "Какая целевая аудитория?", "frequency": 165}
+    ],
+    "question_success_rate": 92.7,
+    "average_interview_duration_minutes": 18.5
+  },
+
+  "gost_sections_usage": {
+    "1_Общие_положения": {"usage_count": 243, "completion_rate": 98.3},
+    "2_Цели_и_задачи": {"usage_count": 243, "completion_rate": 96.7},
+    "3_Требования_к_проекту": {"usage_count": 243, "completion_rate": 94.2},
+    "4_Этапы_реализации": {"usage_count": 231, "completion_rate": 87.4},
+    "5_Требования_к_документации": {"usage_count": 215, "completion_rate": 82.1},
+    "6_Технико_экономические_показатели": {"usage_count": 198, "completion_rate": 78.9},
+    "7_Контроль_и_приемка": {"usage_count": 187, "completion_rate": 75.6}
+  },
+
+  "technology_stack_analysis": {
+    "backend_technologies": {
+      "Python": 89,
+      "JavaScript/Node.js": 67,
+      "Java": 45,
+      "PHP": 38,
+      "C#": 28,
+      "Go": 18,
+      "Ruby": 12
+    },
+    "frontend_technologies": {
+      "React": 78,
+      "Vue.js": 56,
+      "Angular": 34,
+      "HTML/CSS/JS": 89,
+      "Flutter": 23,
+      "Swift": 19,
+      "Kotlin": 16
+    },
+    "databases": {
+      "MySQL": 67,
+      "PostgreSQL": 58,
+      "MongoDB": 45,
+      "SQLite": 38,
+      "Redis": 34,
+      "Firebase": 28
+    },
+    "deployment": {
+      "Docker": 56,
+      "AWS": 45,
+      "Google Cloud": 38,
+      "Azure": 28,
+      "VPS": 67,
+      "Shared Hosting": 34
+    }
+  },
+
+  "market_research": {
+    "target_audience_size": "Малый и средний бизнес России",
+    "potential_clients_monthly": 12500,
+    "conversion_rate_percentage": 8.7,
+    "average_project_cost_rub": 124500,
+    "monthly_revenue_potential_rub": 10800000,
+    "customer_acquisition_cost_rub": 8500,
+    "lifetime_value_rub": 286000,
+    "market_growth_rate_percentage": 23.4,
+    
+    "competitor_analysis": {
+      "freelancers": {"market_share": 45, "average_price": 75000, "advantages": ["Низкая цена", "Гибкость"], "disadvantages": ["Низкое качество ТЗ", "Нет стандартов"]},
+      "web_studios": {"market_share": 35, "average_price": 250000, "advantages": ["Качество", "Поддержка"], "disadvantages": ["Высокая цена", "Долго"]},
+      "ai_solutions": {"market_share": 12, "average_price": 15000, "advantages": ["Скорость", "Цена"], "disadvantages": ["Нет персонализации", "Ошибки"]},
+      "our_solution": {"market_share": 8, "average_price": 45000, "advantages": ["Скорость + качество", "ГОСТ стандарты", "Персонализация"], "disadvantages": ["Требует доработки"]}
+    },
+
+    "geographic_distribution": {
+      "Москва": 28,
+      "Санкт-Петербург": 18,
+      "Новосибирск": 8,
+      "Екатеринбург": 7,
+      "Казань": 6,
+      "Другие города": 33
+    }
+  },
+
+  "quality_metrics": {
+    "tz_completion_rates": {
+      "full_completion": 78.9,
+      "partial_completion": 18.4,
+      "incomplete": 2.7
+    },
+    "customer_satisfaction": {
+      "very_satisfied": 67.8,
+      "satisfied": 25.4,
+      "neutral": 5.1,
+      "unsatisfied": 1.7
+    },
+    "revision_requests": {
+      "no_revisions": 56.7,
+      "1_revision": 28.9,
+      "2_revisions": 10.4,
+      "3+_revisions": 4.0
+    },
+    "time_savings": {
+      "traditional_method_hours": 12.5,
+      "ai_method_hours": 1.8,
+      "time_saving_percentage": 85.6
+    }
+  },
+
+  "sample_tz_structures": [
+    {
+      "project_type": "Веб-сайт",
+      "sections": [
+        {"section": "1. ОБЩИЕ ПОЛОЖЕНИЯ", "word_count": 245, "completion_time_min": 8},
+        {"section": "2. ЦЕЛИ И ЗАДАЧИ", "word_count": 187, "completion_time_min": 6},
+        {"section": "3. ТРЕБОВАНИЯ", "word_count": 456, "completion_time_min": 15},
+        {"section": "4. ЭТАПЫ РЕАЛИЗАЦИИ", "word_count": 234, "completion_time_min": 9},
+        {"section": "5. ТЕХНИКО-ЭКОНОМИЧЕСКИЕ ПОКАЗАТЕЛИ", "word_count": 167, "completion_time_min": 7}
+      ],
+      "total_word_count": 1289,
+      "total_time_minutes": 45
+    },
+    {
+      "project_type": "Телеграм-бот", 
+      "sections": [
+        {"section": "1. ОБЩИЕ ПОЛОЖЕНИЯ", "word_count": 198, "completion_time_min": 7},
+        {"section": "2. ЦЕЛИ И ЗАДАЧИ", "word_count": 156, "completion_time_min": 5},
+        {"section": "3. ТРЕБОВАНИЯ", "word_count": 345, "completion_time_min": 12},
+        {"section": "4. ЭТАПЫ РЕАЛИЗАЦИИ", "word_count": 187, "completion_time_min": 8},
+        {"section": "5. ТЕХНИКО-ЭКОНОМИЧЕСКИЕ ПОКАЗАТЕЛИ", "word_count": 134, "completion_time_min": 6}
+      ],
+      "total_word_count": 1020,
+      "total_time_minutes": 38
+    }
+  ],
+
+  "financial_analysis": {
+    "development_costs": {
+      "api_costs_per_month_rub": 12500,
+      "hosting_costs_rub": 4500,
+      "marketing_costs_rub": 25000,
+      "total_monthly_costs_rub": 42000
+    },
+    "revenue_projections": {
+      "month_1": {"clients": 15, "revenue": 675000},
+      "month_2": {"clients": 28, "revenue": 1260000},
+      "month_3": {"clients": 45, "revenue": 2025000},
+      "month_6": {"clients": 89, "revenue": 4005000},
+      "month_12": {"clients": 156, "revenue": 7020000}
+    },
+    "break_even_analysis": {
+      "monthly_break_even_clients": 34,
+      "break_even_month": 3,
+      "annual_profit_projection_rub": 32400000
+    }
+  }
+}
