@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "project_name": "ТГ-бот для составления ТЗ по ГОСТ",
+    "project_name": "Телеграм-бот для составления ТЗ на основании интервьюирования с клиентом, с использованием нейросетей",
     "dataset_description": "Датасет для анализа эффективности ИИ-бота по генерации технических заданий",
     "total_records": 243,
-    "generation_date": "2024-10-29",
+    "generation_date": "2025-11-06",
     "data_sources": ["GPT-4 generated", "Real project templates", "ГОСТ standards"]
   },
   
